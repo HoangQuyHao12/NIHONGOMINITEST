@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\bin\Debug\日本語ミニテスト.exe.config
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\bin\Debug\日本語ミニテスト.exe
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\bin\Debug\日本語ミニテスト.pdb
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト_MarkupCompile.cache
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト_MarkupCompile.lref
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.g.resources
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.Properties.Resources.resources
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.exe
+C:\Users\Admin\Documents\C#\日本語ミニテスト\日本語ミニテスト\obj\Debug\日本語ミニテスト.pdb

@@ -1,0 +1,38 @@
+﻿<Window x:Class="日本語ミニテスト.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:日本語ミニテスト"
+        mc:Ignorable="d"
+        Title="minitestnihongo" Height="461" Width="800">
+    <Canvas Name="myCanvas"  Background="Wheat" Margin="0,0,0,-6">
+        <Label Name="scoreText" FontSize="18">会話点数:</Label>
+        <Label Name="scoreText1" FontSize="18" HorizontalAlignment="Center" Canvas.Top="34" VerticalAlignment="Top">文法点数:</Label>
+        <Label Name="scoreText2" FontSize="18" HorizontalAlignment="Center" Canvas.Top="68" VerticalAlignment="Top">語彙点数:</Label>
+        <Label Name="scoreText3" FontSize="18" HorizontalAlignment="Left" Canvas.Top="102" VerticalAlignment="Center">書く点数:</Label>
+        <Label Name="questionOrder" FontSize="18" HorizontalAlignment="Left" Canvas.Left="359" VerticalAlignment="Center">Question</Label>
+        <Image Name="qImage" Source="images/1.png" Stretch="Uniform" Height="237" Width="574" Canvas.Left="138" Canvas.Top="34" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Name="txtQuestion" TextAlignment="Center" Padding="3" FontSize="20" Width="572" TextWrapping="Wrap" Canvas.Left="139" Canvas.Top="276" HorizontalAlignment="Left" VerticalAlignment="Top">
+             Trong trường hợp mới gặp mặt sau khi đối phương giới thiệu xong thì bạn làm gì ?
+        </TextBlock>
+
+        <Button Background="Orange" FontSize="18" Click="checkAnswer" Name="ans1" Width="261" Height="50" Content="Cautraloi1" Tag="0" RenderTransformOrigin="0.469,0.533" Canvas.Left="139" Canvas.Top="335" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+        <Button Background="Orange" FontSize="18" Click="checkAnswer" Name="ans2" Width="262" Height="50" Content="Cautraloi2" Tag="0" RenderTransformOrigin="0.469,0.533" Canvas.Left="429" Canvas.Top="335" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button Background="Orange" FontSize="18" Click="checkAnswer" Name="ans3" Width="261" Height="50" Content="Cautraloi3" Tag="0" RenderTransformOrigin="0.469,0.533" Canvas.Left="139" Canvas.Top="390" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button Background="Orange" FontSize="18" Click="checkAnswer" Name="ans4" Width="262" Height="50" Content="Cautraloi4" Tag="0" RenderTransformOrigin="0.469,0.533" Canvas.Left="429" Canvas.Top="390" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox Name="textBoxcheck" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="140" Canvas.Top="172"/>
+        <Button Background="Orange" FontSize="18" Click="checkAnswer2" Name="ans5" Width="43" Height="34" Content="OK" Tag="0" RenderTransformOrigin="0.469,0.533" Canvas.Top="209" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="43"/>
+        <Button Background="Orange" FontSize="18" Click="checkAnswer" Name="ans6" Width="43" Height="34" Content=">>>" Tag="0" RenderTransformOrigin="0.469,0.533" Canvas.Top="209" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="97"/>
+        <Button Background="Orange" FontSize="18" Click="checkAnswer3" Name="ans7" Width="82" Height="50" Content="StarGame" Tag="0" RenderTransformOrigin="0.469,0.533" Canvas.Top="335" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="10"/>
+        <Label x:Name="TimerLabel" Content="0" FontFamily="Segoe UI" FontSize="20" HorizontalAlignment="Center" VerticalContentAlignment="Center" Canvas.Left="752" Canvas.Top="10" Height="35" VerticalAlignment="Top" Width="48">
+
+        </Label>
+        <Label x:Name="TimerLabel1" Content="0" FontFamily="Segoe UI" FontSize="20" HorizontalAlignment="Left" VerticalContentAlignment="Center" Canvas.Left="704" Canvas.Top="12" Height="35" VerticalAlignment="Top" Width="48">
+
+        </Label>
+        <Label FontSize="30" Content=":" Canvas.Left="730" Canvas.Top="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+    </Canvas>
+</Window>

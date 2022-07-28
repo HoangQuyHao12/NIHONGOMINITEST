@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "日本語ミニテスト", "日本語ミニテスト\日本語ミニテスト.csproj", "{98EE47DA-B99C-45E5-9D66-2BC6C7007270}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{5FC97E24-716C-40ED-B373-AFE5E875D597}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98EE47DA-B99C-45E5-9D66-2BC6C7007270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EE47DA-B99C-45E5-9D66-2BC6C7007270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EE47DA-B99C-45E5-9D66-2BC6C7007270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EE47DA-B99C-45E5-9D66-2BC6C7007270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC97E24-716C-40ED-B373-AFE5E875D597}.Debug|Any CPU.ActiveCfg = Debug
+		{5FC97E24-716C-40ED-B373-AFE5E875D597}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {789EAB27-807F-42A9-984E-6A799C44AE7E}
+	EndGlobalSection
+EndGlobal
